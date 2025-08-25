@@ -1,0 +1,10 @@
+package: oapi-codegen
+output: oapi-codegen/model.gen.go
+generate:
+  embedded-spec: false
+  strict-server: false
+  models: true
+output-options:
+  skip-prune: true
+import-mapping:
+  common.yaml: "-"

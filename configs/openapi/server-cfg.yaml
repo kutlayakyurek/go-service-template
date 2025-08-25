@@ -1,0 +1,11 @@
+package: oapi-codegen
+output: oapi-codegen/go-service-template.gen.go
+generate:
+  embedded-spec: false
+  strict-server: true
+  models: false
+  gin-server: true
+output-options:
+  skip-prune: true
+import-mapping:
+  common.yaml: "-"
