@@ -4,9 +4,13 @@
 
 ```text
 project/
+├── api                  # API specific files
 ├── cmd/[api](api)
 │   └── app/
 │       └── main.go      # Main application logic
+├── configs/             # Configuration files
+├── deployments/         # Deployment configurations and templates
+├── docs/                # Design and user documents
 ├── internal/
 │   ├── user/            # Feature: User
 │   │   ├── handler/      # User-specific HTTP Handlers
@@ -20,8 +24,6 @@ project/
 │   │   ├── repository/   # Product-specific Data Access
 │   │   ├── model/        # Product Models
 │   │   └── gen/          # OpenApi Generated Models and Interfaces
-├── pkg/                 # Shared utilities or helpers
-│   └── logger.go        # Logging utilities
-├── configs/             # Configuration files
+├── scripts/             # Scripts to perform various operations
 ├── go.mod               # Go module definition
 └── go.sum               # Go module checksum file
