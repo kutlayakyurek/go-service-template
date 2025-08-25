@@ -2,6 +2,7 @@
 
 ## Sample Project Structure
 
+```text
 project/
 ├── cmd/[api](api)
 │   └── app/
